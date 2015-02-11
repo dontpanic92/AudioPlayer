@@ -1,0 +1,113 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW DIALOGEX 0, 0, 433, 172
+STYLE DS_SETFONT | DS_CENTER | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Audio Player      By  1110320109"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Music Infomation",IDC_STATIC,4,1,303,102
+    LTEXT           "Current Music:",IDC_STATIC,10,12,60,8
+    LTEXT           "",IDC_CURRENTMUSIC,74,12,179,8
+    PUSHBUTTON      "Browse...",IDC_BUTTONBROWSE,255,10,50,14,NOT WS_TABSTOP
+    LTEXT           "  Title:\n Artist:\n  Album:\n   Year:\nComment:\n  Genre:",IDC_STATIC,55,44,37,53
+    LTEXT           "Detail Infomation:",IDC_STATIC,98,27,104,8
+    LTEXT           "",IDC_INFO,92,45,159,50
+    GROUPBOX        "Control Panel",IDC_STATIC,4,105,303,64
+    CONTROL         "",IDC_POSITIONCTRL,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_ENABLESELRANGE,10,122,241,15,WS_EX_TRANSPARENT
+    LTEXT           "0:00/0:00",IDC_TIME,255,123,43,8
+    CONTROL         "",IDC_VOLUMECTRL,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS,161,139,62,16
+    LTEXT           "Volume:100%",IDC_VOLUME,224,143,49,8
+    PUSHBUTTON      "Stop",IDC_BUTTONSTOP,138,137,23,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Play",IDC_BUTTONPLAY,113,137,23,18,NOT WS_TABSTOP
+    PUSHBUTTON      "Change UI",IDC_CHANGEUI,254,52,49,21,NOT WS_TABSTOP
+    PUSHBUTTON      "+",IDC_BUTTONADD,309,155,14,14,NOT WS_TABSTOP
+    COMBOBOX        IDC_COMBOMODE,377,157,56,70,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL
+    LISTBOX         IDC_LISTMUSIC,310,11,123,144,LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL
+    PUSHBUTTON      "-",IDC_BUTTONDEL,323,155,14,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Clear All",IDC_BUTTONCA,337,155,39,14,NOT WS_TABSTOP
+    LTEXT           "Play List",IDC_STATIC,311,2,37,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
